@@ -22,6 +22,9 @@ println!("{}", id); // some random id with 21 characters;
 There are only two features: `wasm` and `not-wasm`.
 Default feature imports nothing. Must designate either of `wasm` or `not-wasm`.
 
+## Demo Page (with leptos)
+[https://acheul.github.io/nanoid-wasm/](https://acheul.github.io/nanoid-wasm/)
+
 ## Also Look
 * [crate nanoid](https://crates.io/crates/nanoid)
 * [crate uuid](https://crates.io/crates/uuid)
