@@ -15,9 +15,17 @@ nanoid-wasm = { path="../../nanoid-wasm", features=["not-wasm"] }
 ```rust
 // in_your_rust.rs
 
+use nanoid_wasm::nanoid;
+
 let size = 21;
-let id: String = nanoid_wasm::nanoid(size);
+let id: String = nanoid!(); // 21 characters
 println!("{}", id); // some random id with 21 characters;
+
+let id: String = nanoid!(8); // 8 characters
+println!("{}", id);
+
+let id = nanoid!(5, &['a', 'b', 'c', 'd']); // 5 characters among ['a', 'b', 'c', 'd']
+println!("{}", id);
 ```
 
 ## Features
