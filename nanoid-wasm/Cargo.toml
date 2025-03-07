@@ -8,9 +8,7 @@ repository = "https://github.com/acheul/nanoid-wasm"
 description = "NanoId for wasm"
 readme = "../README.md"
 keywords = ["nanoid", "wasm"]
-categories = [
-  "data-structures", "wasm"
-]
+categories = ["data-structures", "wasm"]
 
 [features]
 wasm = ["dep:wasm-bindgen", "dep:js-sys"]
