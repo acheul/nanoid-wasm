@@ -67,6 +67,22 @@ pub fn get_nanoid(size: u32) -> String {
   get_nanoid_with_chars(size, &chars)
 }
 
+
+/// # Example
+/// 
+/// ```
+/// use nanoid_wasm::nanoid;
+///
+/// let size = 21;
+/// let id: String = nanoid!(); // 21 characters
+/// println!("{}", id); // some random id with 21 characters;
+/// 
+/// let id: String = nanoid!(8); // 8 characters
+/// println!("{}", id);
+/// 
+/// let id = nanoid!(5, &['a', 'b', 'c', 'd']); // 5 characters among ['a', 'b', 'c', 'd']
+/// println!("{}", id);
+/// ```
 #[cfg(any(feature="wasm", feature="not-wasm"))]
 #[macro_export]
 macro_rules! nanoid {
