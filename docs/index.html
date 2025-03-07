@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nanoid-wasm</title>
+<link rel="modulepreload" href="/wasm-leptos-20c51c15e3a764b0.js" crossorigin="anonymous" integrity="sha384-2QBvS/ZKqe1U1UKHYnem5KLhSH50t8iv+OjzmQncqf7sXVcETDkt3KDImkGRyOHx"><link rel="preload" href="/wasm-leptos-20c51c15e3a764b0_bg.wasm" crossorigin="anonymous" integrity="sha384-MfrGI088+9+HhFQLwTm4hwmUmL4lyeQiAvip8dslhK0emzFMu4CHKjGBOh7N4djp" as="fetch" type="application/wasm"></head>
+<body>
+  
+
+<script type="module">
+import init, * as bindings from '/wasm-leptos-20c51c15e3a764b0.js';
+const wasm = await init({ module_or_path: '/wasm-leptos-20c51c15e3a764b0_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>

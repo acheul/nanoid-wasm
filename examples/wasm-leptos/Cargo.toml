@@ -6,3 +6,9 @@ edition = "2021"
 [dependencies]
 nanoid-wasm = { path="../../nanoid-wasm", features=["wasm"] }
 leptos = { version = "0.7.7", features = ["csr"] }
+
+[profile.release]
+panic = 'abort'
+codegen-units = 1
+opt-level = 'z'
+lto = true
