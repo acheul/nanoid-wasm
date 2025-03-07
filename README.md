@@ -1,5 +1,7 @@
 # NanoId for wasm
 
+[![Crates.io](https://img.shields.io/crates/v/nanoid-wasm)](https://crates.io/crates/nanoid-wasm)
+[![docs.rs](https://img.shields.io/docsrs/nanoid-wasm?label=docs.rs)](https://docs.rs/nanoid-wasm)
 
 ## Usage
 
