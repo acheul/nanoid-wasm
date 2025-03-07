@@ -1,8 +1,19 @@
 fn main() {
 
-  for _ in 0..10 {
+  use nanoid_wasm::nanoid;
 
-    let id = nanoid_wasm::nanoid(21);
+  for _ in 0..5 {
+    let id = nanoid!(); // 21 characters
+    println!("{}", id);
+  }
+
+  for _ in 0..5 {
+    let id = nanoid!(8); // 8 characters
+    println!("{}", id);
+  }
+
+  for _ in 0..5 {
+    let id = nanoid!(5, &['a', 'b', 'c', 'd']); // 5 characters among ['a', 'b', 'c', 'd']
     println!("{}", id);
   }
 }
