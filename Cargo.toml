@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [ 
+  "nanoid-wasm",
+  "examples/not-wasm",
+  # "examples/wasm-leptos"
+]
