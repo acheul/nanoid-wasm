@@ -1,3 +1,8 @@
+cargo-features = [
+    "trim-paths", 
+    "panic-immediate-abort"
+]
+
 [workspace]
 resolver = "2"
 members = [ 
