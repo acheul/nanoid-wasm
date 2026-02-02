@@ -15,7 +15,7 @@ keywords = ["nanoid", "wasm"]
 categories = ["data-structures", "wasm"]
 exclude = [
     "tests/*",
-    "examples/*"
+    "examples/*",
 ]
 
 [dependencies]
