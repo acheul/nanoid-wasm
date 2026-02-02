@@ -1,3 +1,7 @@
+cargo-features = [
+    "trim-paths",
+]
+
 [package]
 name = "nanoid-wasm"
 version = "0.2.0"
