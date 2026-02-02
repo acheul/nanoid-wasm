@@ -87,7 +87,7 @@ pub fn get_nanoid(size: u32) -> String {
 #[macro_export]
 macro_rules! nanoid {
   () => {
-    nanoid_wasm::get_nanoid(64)      
+    nanoid_wasm::get_nanoid(21)
   };
   ($size:expr) => {
     nanoid_wasm::get_nanoid($size)
