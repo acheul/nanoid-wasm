@@ -1,7 +1,0 @@
-[package]
-name = "not-wasm"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-nanoid-wasm = { path="../../nanoid-wasm", features=["not-wasm"] }

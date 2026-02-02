@@ -9,7 +9,7 @@
 # Cargo.toml
 
 [dependencies]
-nanoid-wasm = { path="../../nanoid-wasm", features=["not-wasm"] }
+nanoid-wasm = "0.2" # no features required since v0.2. It distinguishes target-family internally.
 ```
 
 ```rust
@@ -29,13 +29,24 @@ println!("{}", id);
 ```
 
 ## Features
-There are only two features: `wasm` and `not-wasm`.
-Default feature imports nothing. Must designate either of `wasm` or `not-wasm`.
+
+No features required since v0.2. The crate distinguishes target-family internally.
+
+You can safely use this crate on both wasm targets and non-wasm targets.
+
+~~There are only two features: `wasm` and `not-wasm`.
+Default feature imports nothing. Must designate either of `wasm` or `not-wasm`.~~
 
 ## Demo Page (with leptos)
+
 [https://acheul.github.io/nanoid-wasm/](https://acheul.github.io/nanoid-wasm/)
 
 ## Also Look
-* [crate nanoid](https://crates.io/crates/nanoid)
-* [crate uuid](https://crates.io/crates/uuid)
-  * They supports `js` feature for wasm environment.
+
+- [crate nanoid](https://crates.io/crates/nanoid)
+- [crate uuid](https://crates.io/crates/uuid)
+  - They supports `js` feature for wasm environment.
+
+## For Version Changes, look `VERSION.md`
+
+- [VERSION.md](https://github.com/acheul/nanoid-wasm/blob/main/VERSION.md)

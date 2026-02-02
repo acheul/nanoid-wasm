@@ -1,8 +1,8 @@
 [package]
 name = "wasm-leptos"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 [dependencies]
-nanoid-wasm = { path="../../nanoid-wasm", features=["wasm"] }
+nanoid-wasm = { path="../../nanoid-wasm" }
 leptos = { version = "0.7.7", features = ["csr"] }
