@@ -22,7 +22,6 @@ exclude = [
 
 [target.'cfg(target_family = "wasm")'.dependencies]
 wasm-bindgen = { version="0.2" }
-js-sys = { version="0.3" }
 web-sys = { version="0.3", features = ["Window", "Crypto"] }
 
 [target.'cfg(not(target_family = "wasm"))'.dependencies]
