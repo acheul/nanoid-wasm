@@ -13,6 +13,10 @@ description = "NanoId for wasm"
 readme = "../README.md"
 keywords = ["nanoid", "wasm"]
 categories = ["data-structures", "wasm"]
+exclude = [
+    "tests/*",
+    "examples/*"
+]
 
 [dependencies]
 
