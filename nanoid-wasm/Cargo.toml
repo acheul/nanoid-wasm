@@ -1,10 +1,6 @@
-cargo-features = [
-    "trim-paths",
-]
-
 [package]
 name = "nanoid-wasm"
-version = "0.2.1"
+version = "0.2.2-test.0"
 edition = "2021"
 authors = ["Acheul <seoul605.21@gmail.com>"]
 license = "MIT"
