@@ -1,13 +1,7 @@
-cargo-features = [
-    "trim-paths", 
-    "panic-immediate-abort"
-]
-
 [workspace]
 resolver = "2"
 members = [ 
     "nanoid-wasm",
-    "demo/wasm-leptos"
 ]
 exclude = [
     "demo/wasm-leptos"

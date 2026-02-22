@@ -2,7 +2,7 @@
 .vscode
 Cargo.lock
 dist
-.cargo
+.cargo*
 print.*
-memo.*
+memo*
 prints

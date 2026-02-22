@@ -1,6 +1,8 @@
+cargo-features = ["trim-paths", "panic-immediate-abort"]
+
 [package]
 name = "wasm-leptos"
-version = "0.2.0"
+version = "0.2.2"
 edition = "2021"
 
 [dependencies]

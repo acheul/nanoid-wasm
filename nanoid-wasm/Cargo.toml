@@ -1,6 +1,6 @@
 [package]
 name = "nanoid-wasm"
-version = "0.2.2-test.0"
+version = "0.2.2"
 edition = "2021"
 authors = ["Acheul <seoul605.21@gmail.com>"]
 license = "MIT"

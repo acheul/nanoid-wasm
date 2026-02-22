@@ -15,3 +15,7 @@
 
 - v.0.2.1
   - remove js-sys dependency
+  - ⚠️ v.0.2.1 causes a bug that prevents being used in stable toolchain. Use next versions.
+
+- v.0.2.2
+  - Fix typo which caused a [toolchain bug](https://github.com/acheul/nanoid-wasm/issues/2#issue-3973674692)

@@ -9,7 +9,7 @@
 # Cargo.toml
 
 [dependencies]
-nanoid-wasm = "0.2" # no features required since v0.2. It distinguishes target-family internally.
+nanoid-wasm = "0.2.2" # no features required since v0.2. It distinguishes target-family internally.
 ```
 
 ```rust
